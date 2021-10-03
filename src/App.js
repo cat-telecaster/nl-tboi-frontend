@@ -1,7 +1,9 @@
+import React from 'react';
 import {Header} from "./components/Header"
-import {CharacterSelectbox} from "./components/CharacterSelectbox"
-import {ObjectiveSelectbox} from "./components/ObjectiveSelectbox"
-import {TimedSelectbox} from "./components/TimedSelectbox"
+import CharacterSelectbox from "./components/CharacterSelectbox"
+import ObjectiveSelectbox from "./components/ObjectiveSelectbox"
+import TimedSelectbox from "./components/TimedSelectbox"
+import Submit from "./components/Submit"
 import {Footer} from "./components/Footer"
 
 import styled from 'styled-components'
@@ -27,6 +29,7 @@ function App() {
       <CharacterSelectbox/>
       <ObjectiveSelectbox/>
       <TimedSelectbox/>
+      <Submit/>
       <Footer/>
     </AppContainer>
   );
