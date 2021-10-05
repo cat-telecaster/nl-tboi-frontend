@@ -23,4 +23,4 @@ src
 Root page styling is done in `src/index.css`. All component styling is done through [`styled-components`](https://styled-components.com/docs/basics#getting-started) (example in `src/App.js`).
 
 ### Deployment
-Deployed on [Heroku](https://www.heroku.com/) and is viewable [here](https://nl-tboi-frontend.herokuapp.com/).
+Deployed via [Heroku](https://www.heroku.com/) and is viewable [here](https://nl-tboi-frontend.herokuapp.com/).
