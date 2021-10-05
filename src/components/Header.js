@@ -1,4 +1,4 @@
 export const Header = () => <header>
-  <h1>Minimal React Template</h1>
-  <p>Because <code>create-react-app</code> has way too much extra boilerplate</p>
+  <h1>Northernlion TBoI Predictor</h1>
+  <p>Frontend interface to my <code>nl-tboi-prediction</code> project.</p>
 </header>

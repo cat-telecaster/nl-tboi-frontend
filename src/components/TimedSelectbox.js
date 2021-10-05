@@ -14,7 +14,7 @@ class TimedSelectbox extends Component {
                 id="timed-select"
                 onChange={(e) => this.props.sendData(e.target.value)}
                 >
-                    <option>Pick timed objective...</option>
+                    <option value="noselect">Pick timed objective...</option>
                     <option value="None">None</option>
                     <option value="Boss Rush">Boss Rush</option>
                     <option value="Hush">Hush</option>

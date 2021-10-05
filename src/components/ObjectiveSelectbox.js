@@ -14,7 +14,7 @@ class ObjectiveSelectbox extends Component {
                 id="objective-select"
                 onChange={(e) => this.props.sendData(e.target.value)}
                 >
-                    <option>Pick objective...</option>
+                    <option value="noselect">Pick objective...</option>
                     <option value="???">???</option>
                     <option value="The Lamb">The Lamb</option>
                     <option value="Mega Satan">Mega Satan</option>

@@ -30,7 +30,7 @@ class CharacterSelectbox extends Component {
                 //{(e) => this.props.sendData({ character: e.target.value })}
                 onChange={(e) => this.props.sendData(e.target.value)}
                 >
-                    <option>Pick character...</option>
+                    <option value="noselect">Pick character...</option>
                     <option value="Isaac">Isaac</option>
                     <option value="Magdalene">Magdalene</option>
                     <option value="Cain">Cain</option>

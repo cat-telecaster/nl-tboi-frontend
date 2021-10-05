@@ -5,7 +5,7 @@ const initState = {
 }
 
 export default function rootReducer (state=initState, action) {
-    console.log(action);
+    //console.log(action)
     switch (action.type) {
         // do stuff
         case 'CHANGE_CHAR':
