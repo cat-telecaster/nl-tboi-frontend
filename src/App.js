@@ -8,15 +8,6 @@ import {Footer} from "./components/Footer"
 
 import styled from 'styled-components'
 
-/*
-proposed structure/flow:
-charselectbox -> character data
-objselectbox -> obj data
-timedselectbox -> timed obj data
-
-POST outputted data to API when button is pressed
-*/
-
 // custom styling using styled-components!
 const AppContainer = styled.div`
   margin: 30vh 30vw;

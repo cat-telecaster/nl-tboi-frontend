@@ -4,21 +4,6 @@ import { Form } from 'react-bootstrap';
 import { connect } from 'react-redux';
 
 class CharacterSelectbox extends Component {
-    // create state
-    /*
-    const [value, setValue] = useState('')
-    const handleChange=(e)=>{
-        console.log(e)
-        setValue(e)
-
-    }
-    */
-    /*
-    handleChange = (e) => {
-        this.props.sendData({character: e.target.value})
-    }
-    */
-
     // render
     render() {
         return (
@@ -27,7 +12,6 @@ class CharacterSelectbox extends Component {
                 <Form.Select 
                 title="Character select"
                 id="character-select"
-                //{(e) => this.props.sendData({ character: e.target.value })}
                 onChange={(e) => this.props.sendData(e.target.value)}
                 >
                     <option value="noselect">Pick character...</option>
