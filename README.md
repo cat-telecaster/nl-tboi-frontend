@@ -1,13 +1,18 @@
-# `min-react`
-Because `create-react-app` has way too much extra boilerplate
+# `nl-tboi-frontend`
+Fontend interface to my linear regression model used to predict Northernlion's The Binding of Isaac: Repentance runs.
 
 ## Contents
 ```
 src
 ├── components      # all React components
-│   ├── Clock.js    # clock that ticks once a second (useState and useEffect example)
+│   ├── CharacterSelectbox.js    # Selectbox associated with entering starting params
 │   ├── Footer.js
-│   └── Header.js
+│   ├── Header.js
+│   ├── ObjectiveSelectbox.js
+│   ├── Submit.js                # Submit button and sending data as API request
+│   └── TimedSelectbox.js
+├── reducers      # all React components
+│   └── rootReducer.js    # Root reducer for data between components
 ├── App.js          # main React app
 ├── index.css       # root-level styling
 └── index.js        # React entrypoint (where React gets inserted into the page)
@@ -17,10 +22,5 @@ src
 ### Styling
 Root page styling is done in `src/index.css`. All component styling is done through [`styled-components`](https://styled-components.com/docs/basics#getting-started) (example in `src/App.js`).
 
-### Page Metadata
-To customize the font, page title, page icon, etc. you can customize the page skeleton over in `public/index.html`. 
-
-All fonts are served through [Google Fonts](https://fonts.google.com/), you can pick and choose your own over there!
-
 ### Deployment
-[Vercel](https://vercel.com/) is the recommended way to deploy this site to the internet. [Current deployment](https://min-react.vercel.app/)
+Deployed on [Heroku](https://www.heroku.com/).
