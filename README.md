@@ -1,5 +1,5 @@
 # `nl-tboi-frontend`
-Fontend interface to my linear regression model used to predict Northernlion's The Binding of Isaac: Repentance runs.
+Frontend interface to my linear regression model used to predict Northernlion's The Binding of Isaac: Repentance runs.
 
 ## Contents
 ```
